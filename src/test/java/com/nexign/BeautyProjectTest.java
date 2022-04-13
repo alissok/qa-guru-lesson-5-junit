@@ -12,8 +12,8 @@ public class BeautyProjectTest {
 
     //Vars
     String  url = "https://beauty-project.ru/calculator.html",
-            validExpDate = "https://beauty-project.ru/calculator.html",
-            isExpired = "https://beauty-project.ru/calculator.html";
+            validExpDate = "Еще годен",
+            isExpired = "Вы ввели код, не являющийся батч кодом или он еще не поддерживается";
 
     @CsvSource(value = {
             "Nars|0247BC",
